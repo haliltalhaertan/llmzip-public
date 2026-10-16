@@ -1,0 +1,3 @@
+condition,description,correct_answers,evaluated_questions,accuracy_percent,successful_final_reader_input_tokens,evidence_status,clean_holdout,token_scope,token_scope_exclusions
+A,Full text of the same top five B1c retrieved sessions,419,487,86.036961,7309577,exploratory_pilot_not_confirmatory,false,successful final reader calls input tokens only,output tokens; failed attempts; retrieval; context packaging; judging
+B,Older lexical anchored selector; ratio 0.75; neighbors 1; same five sessions and order,417,487,85.626283,5610870,exploratory_pilot_not_confirmatory,false,successful final reader calls input tokens only,output tokens; failed attempts; retrieval; context packaging; judging
