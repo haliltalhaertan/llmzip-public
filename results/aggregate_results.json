@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "study": "LLMZIP exploratory A/B pilot",
+    "pilot_date": "2026-10-15",
+    "evidence_status": "exploratory_pilot_not_confirmatory",
+    "candidate_questions": 500,
+    "previously_seen_candidate_questions": 500,
+    "excluded_under_prewritten_rule": 13,
+    "evaluated_questions": 487,
+    "clean_holdout": false,
+    "shared_session_connected_components": 1,
+    "independent_replication_performed_for_this_release": false,
+    "router_evaluated": false,
+    "router_thresholds_validated": false
+  },
+  "conditions": [
+    {
+      "condition": "A",
+      "description": "Full text of the same top five B1c retrieved sessions",
+      "correct_answers": 419,
+      "evaluated_questions": 487,
+      "accuracy_percent": 86.036961,
+      "successful_final_reader_input_tokens": 7309577
+    },
+    {
+      "condition": "B",
+      "description": "Older lexical anchored selector; ratio 0.75; neighbors 1; same five sessions and order",
+      "correct_answers": 417,
+      "evaluated_questions": 487,
+      "accuracy_percent": 85.626283,
+      "successful_final_reader_input_tokens": 5610870
+    }
+  ],
+  "descriptive_comparison": {
+    "B_minus_A_correct_answers": -2,
+    "B_minus_A_accuracy_percentage_points": -0.410678,
+    "reported_successful_final_reader_input_token_reduction_percent": 23.2,
+    "token_reduction_percent_rounding": "one decimal place",
+    "excluded_from_token_reduction": [
+      "output tokens",
+      "failed attempts",
+      "retrieval",
+      "context packaging",
+      "judging"
+    ],
+    "total_cost_saving_established": false,
+    "equivalence_established": false,
+    "state_of_the_art_established": false
+  },
+  "source_status": "Aggregate values transcribed from the author pilot report; underlying experimental artifacts not independently audited in this release.",
+  "release_type": "documentation_only_no_executable_reproduction"
+}
