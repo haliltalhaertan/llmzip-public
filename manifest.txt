@@ -1,0 +1,10 @@
+LLMZIP_RESEARCH_BRIEF.html
+PUBLICATION_CHECKLIST.md
+README.md
+SHA256SUMS.txt
+docs/LIMITATIONS_AND_DATA_GOVERNANCE.md
+docs/PROPOSED_EVALUATION.md
+docs/TURKCE_OZET.md
+manifest.txt
+results/aggregate_results.csv
+results/aggregate_results.json
